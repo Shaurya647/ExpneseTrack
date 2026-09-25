@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Executive Brand Colors -->
+    <color name="primary">#0F172A</color>
+    <color name="primary_light">#F1F5F9</color>
+    <color name="background">#F8FAFC</color>
+
+    <!-- Typography Colors -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="error">#E11D48</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Financial Card & Accent Colors -->
+    <color name="navy_card">#0F172A</color>
+    <color name="accent_teal">#10B981</color>
+
+    <!-- Category Specific Palettes -->
+    <color name="food_bg">#FFFBEB</color>
+    <color name="food_icon">#D97706</color>
+    <color name="travel_bg">#EFF6FF</color>
+    <color name="travel_icon">#2563EB</color>
+    <color name="shopping_bg">#F5F3FF</color>
+    <color name="shopping_icon">#7C3AED</color>
+    <color name="bills_bg">#FFF1F2</color>
+    <color name="bills_icon">#E11D48</color>
+    <color name="entertainment_bg">#ECFDF5</color>
+    <color name="entertainment_icon">#059669</color>
+    <color name="other_bg">#F8FAFC</color>
+    <color name="other_icon">#475569</color>
+</resources>
