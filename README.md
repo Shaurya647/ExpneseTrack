@@ -1,32 +1,38 @@
 # 💰 ExpenseTrack
 
-A premium Android expense tracking application built with **Kotlin**, **Room Database**, and **Material 3**. ExpenseTrack helps users record daily expenses, attach receipt photos, analyze spending with charts, track expenses by calendar date, and share monthly statements.
-
-<p align="center">
-  <img src="screenshots/home.png" width="180"/>
-  <img src="screenshots/add_expense.png" width="180"/>
-  <img src="screenshots/analytics.png" width="180"/>
-</p>
+> A modern Android expense tracking application built with **Kotlin**, **Room Database**, and **Material 3** that helps users manage daily expenses, store receipts, analyze spending, and generate monthly reports.
 
 ---
 
-## ✨ Features
+## 📖 Overview
 
-- 📊 **Dashboard** with live monthly expense overview
-- ➕ **Add Expense** with category, notes & receipt
-- 📷 **Capture Receipt** using camera
-- 📁 **Upload Receipt** from gallery/files
-- 🗂 **Room Database** for offline storage
-- 📅 **Calendar View** with automatic date tracking
-- 🥧 **Expense Analytics** using Pie Chart
-- 📜 **Transaction History** with all expenses
-- 📤 **Export & Share** monthly statement
-- 🎯 **Budget Limit** with remaining balance indicator
+**ExpenseTrack** is a personal finance management application developed as a **Mobile Application Development (MAD)** project. The app enables users to record daily transactions, capture or upload receipt images, visualize expenses through analytics, browse expenses by calendar date, and export monthly spending summaries.
+
+The application is fully offline and stores all data securely using **Room (SQLite)**.
 
 ---
 
-### Screenshots
-| Dashboard |  |  |
+## ✨ Key Features
+
+- 📊 **Smart Dashboard** with live monthly expense overview
+- ➕ **Add Expense** with amount, category & notes
+- 📷 **Capture Receipt** directly using the device camera
+- 📁 **Upload Receipt** from gallery or files
+- 🗂 **Room Database** for complete offline storage
+- 📅 **Expense Calendar** with automatic date-wise tracking
+- 🥧 **Expense Analytics** using Pie Chart visualization
+- 📜 **Transaction History** with complete CRUD operations
+- 💸 **Budget Limit** with remaining balance indicator
+- 📤 **Export & Share** monthly expense statement
+- 🔔 Notification & Camera permission support
+
+---
+
+## 🖼️ Screenshots
+
+### Dashboard
+
+|  |  |  |
 | :---: | :---: | :---: |
 | <img src="Screenshots/1.png" width="250"> | <img src="Screenshots/2.png" width="250"> | <img src="Screenshots/3.png" width="250"> |
 
@@ -34,17 +40,61 @@ A premium Android expense tracking application built with **Kotlin**, **Room Dat
 | :---: | :---: | :---: |
 | <img src="Screenshots/4.png" width="250"> | <img src="Screenshots/5.png" width="250"> | <img src="Screenshots/6.png" width="250"> |
 
+---
 
+## 📱 Application Modules
 
-## 🛠 Tech Stack
+### 🏠 Dashboard
+- Displays total monthly expenditure
+- Shows remaining budget limit
+- Category-wise expense cards
+- Quick access to Calendar & Analytics
 
-- **Language:** Kotlin
-- **UI:** XML + ViewBinding
-- **Database:** Room (SQLite)
-- **Architecture:** Activity-based
-- **Charts:** MPAndroidChart
-- **Media:** Camera & File Picker
-- **Design:** Material 3
+### 💳 Transaction Entry
+- Enter expense amount
+- Select expense category
+- Add notes or merchant name
+- Capture or upload receipt
+- Save transaction instantly
+
+### 📅 Expense Calendar
+- Automatically saves every expense with today's date
+- View expenses for any selected date
+- Daily total and transaction count
+- Clean calendar navigation
+
+### 📊 Expense Analytics
+- Interactive Pie Chart
+- Category-wise percentage breakdown
+- Highest spending category
+- Total monthly expenditure overview
+
+### 📜 Transaction History
+- View all recorded expenses
+- Date-wise transaction list
+- Category and notes display
+- Export & Share complete statement
+
+### 📈 Monthly Summary
+- Monthly expenditure report
+- Category-wise totals
+- Budget monitoring
+- Ready for sharing or exporting
+
+---
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **Kotlin** | Application development |
+| **XML** | User Interface |
+| **Room Database** | Local data storage |
+| **SQLite** | Offline persistence |
+| **ViewBinding** | UI binding |
+| **Material 3** | Modern Android design |
+| **MPAndroidChart** | Pie chart analytics |
+| **Camera & File Picker** | Receipt management |
 
 ---
 
@@ -58,65 +108,62 @@ ExpenseTrack/
 │   │   ├── database/
 │   │   ├── model/
 │   │   ├── adapter/
-│   │   └── ui/
+│   │   ├── activities/
+│   │   └── utils/
 │   │
 │   └── res/
 │       ├── layout/
 │       ├── drawable/
-│       └── mipmap/
+│       ├── mipmap/
+│       └── values/
+│
+├── Screenshots/
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 4.png
+│   ├── 5.png
+│   └── 6.png
 │
 └── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
 
-1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/ExpenseTrack.git
-```
+## 📌 Permissions
 
-2. Open the project in **Android Studio**
-
-3. Sync Gradle
-
-4. Run on an Android device or emulator
+| Permission | Usage |
+|-----------|------|
+| Camera | Capture receipt photos |
+| Photos / Media | Upload receipt images |
+| Notifications | Budget reminders & alerts |
 
 ---
 
-## 📌 Core Functionalities
+## 🎯 Learning Outcomes
 
-| Module | Description |
-|---------|-------------|
-| Dashboard | Shows total monthly expenses & budget |
-| Add Expense | Save amount, category, note & receipt |
-| Calendar | View expenses by selected date |
-| Analytics | Pie chart of category-wise spending |
-| History | View all recorded transactions |
-| Summary | Export and share monthly report |
+This project demonstrates practical implementation of:
 
----
-
-## 📷 Permissions Used
-
-- **Camera** – Capture receipt images
-- **Media/Photos** – Upload existing receipts
-- **Notifications** – Budget reminders *(optional)*
+- Room Database (SQLite)
+- CRUD Operations
+- ViewBinding
+- Camera Integration
+- File Picker
+- Calendar-based Data Filtering
+- Pie Chart Data Visualization
+- Material 3 UI Design
+- Android Intents (Share Functionality)
 
 ---
 
-## 🎓 Academic Project
+## 👤 Project Information
 
-**Project Name:** ExpenseTrack
+**Name:** Shaurya Patel
 
-Developed as a **Mobile Application Development (MAD)** project using Android Studio and Kotlin.
+**Enrollment No:** 24012011128
 
----
+**Project Title:** ExpenseTrack
 
-## 👨‍💻 Developer
-
-**Shaurya Patel**
-
-If you like this project, don't forget to ⭐ the repository!
+**Subject:** Mobile Application Development (MAD)
